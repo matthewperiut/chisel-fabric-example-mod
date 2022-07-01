@@ -26,7 +26,6 @@ replace_text_in_file("gradle.properties", "fabric-example-mod", modid + "-mod")
 
 # Modify Code Files
 os.mkdir ("src/main/java/net/" + name)
-os.mkdir ("src/main/java/net/" + name + "/" + modid)
 os.rename("src/main/java/net/" + pname + "/" + pmodid, "src/main/java/net/" + name + "/" + modid)
 os.removedirs("src/main/java/net/" + pname)
 
